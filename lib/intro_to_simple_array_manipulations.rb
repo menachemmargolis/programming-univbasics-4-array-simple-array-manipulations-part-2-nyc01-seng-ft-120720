@@ -9,3 +9,11 @@ end
 def using_uniq(haircuts)
   haircuts.uniq
 end
+
+def using_flatten(instruments)
+  instruments.flatten
+end
+
+def using_delete(instructors)
+  instructors.delete[1]
+end
